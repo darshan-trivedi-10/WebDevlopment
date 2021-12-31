@@ -29,14 +29,19 @@ let fs = require("fs");
 // fs.rmdirSync("MyDirectory");
 
 // fs.existsSync --> if file exist at a path give true else give flase
-let isExits = fs.existsSync("main.js");
-console.log(isExits);
+// let isExits = fs.existsSync("main.js");
+// console.log(isExits);
 
 // fs.lstatSync --> if a file exist at a path --> true/folder
-let detailsObj = fs.lstatSync(__dirname + "\\fileSystem.js");
+// let detailsObj = fs.lstatSync(__dirname + "\\fileSystem.js");
 // console.log(detailsObj);
-console.log(detailsObj.isDirectory());
+// console.log(detailsObj.isDirectory());
 
+for (let i = 1; i <= 10; i++) {
+    let dirPathToMake = `Lecture-${i}`;
+    fs.mkdirSync(dirPathToMake);
+    fs.writeFileSync(dirPathToMake + "\\" + "readme.md", `#readme for ${dirPathToMake}`);
+}
 
 
 
