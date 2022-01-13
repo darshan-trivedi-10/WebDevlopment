@@ -1,1 +1,0 @@
-#readme for Lecture-2
