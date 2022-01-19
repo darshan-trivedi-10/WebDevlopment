@@ -11,3 +11,5 @@ npm init
 npm init -y
 
 npm link
+
+shebang syntax 
