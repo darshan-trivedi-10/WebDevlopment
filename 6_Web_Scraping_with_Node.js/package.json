@@ -1,0 +1,22 @@
+{
+  "name": "6_Web_Scraping_with_Node.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "description": "",
+  "bin": {
+    "crf": "ratingFinder.js"
+  }
+}
