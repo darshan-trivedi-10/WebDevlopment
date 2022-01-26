@@ -15,8 +15,8 @@
   },
   "type": "module",
   "devDependencies": {},
-  "description": "",
   "bin": {
     "crf": "ratingFinder.js"
-  }
+  },
+  "description": ""
 }

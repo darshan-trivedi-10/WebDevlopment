@@ -25,7 +25,7 @@ function handleHtml(html) {
     data = data.split(' ').filter(w => w !== '');
     data = data.filter(w => w !== '\n');
     if (data[2] == undefined) {
-        console.log("Please, Enter Correct UserName 🙏");
+        console.log("Please, Enter Correct UserName 🙏 or this user have no rating");
         return;
     }
     let currentRating = " Current Rating :- " + data[2];
