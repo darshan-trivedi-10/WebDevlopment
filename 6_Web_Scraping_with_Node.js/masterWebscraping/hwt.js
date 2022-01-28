@@ -53,18 +53,8 @@ function handleHtml(html) {
             // console.log()
             console.log(`Winning Team ${winningTeam} highest wicket Taker playerName: ${hwtName} wickets: ${hwt}`)
 
-
-
         }
 
-
     }
-
-    // .card.content-block.match-scorecard-table>.Collapsible
-
-
-
-
-
 
 }
