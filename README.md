@@ -10,13 +10,13 @@
 - Advanced Backend - `02/10/2022`
 
 - https://github.com/Jasbir96/Batches/blob/main/reference.md
-- (https://github.com/fsiddh/PepCoding-Program/tree/main/1.%20Web%20Development)[rederence or roadmap]
+- https://github.com/fsiddh/PepCoding-Program/tree/main/1.%20Web%20Development [reference or roadmap]
 
 ## Puppeteer
 
-https://flaviocopes.com/puppeteer/
-https://nitayneeman.com/posts/getting-to-know-puppeteer-using-practical-examples/
-https://peter.sh/experiments/chromium-command-line-switches/
-DOM: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
-https://pptr.dev/
-https://github.com/puppeteer/puppeteer/blob/v5.1.0/docs/api.md
+- https://flaviocopes.com/puppeteer/
+- https://nitayneeman.com/posts/getting-to-know-puppeteer-using-practical-examples/
+- https://peter.sh/experiments/chromium-command-line-switches/
+- DOM: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
+- https://pptr.dev/
+- https://github.com/puppeteer/puppeteer/blob/v5.1.0/docs/api.md
