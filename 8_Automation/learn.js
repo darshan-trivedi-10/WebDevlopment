@@ -9,6 +9,8 @@ const browserOpenPromise = puppeteer.launch({
     defaultViewport: null,
     args: ["--start-maximized"]
 });
+
+
 browserOpenPromise
     .then(function (browser) {
         let pageArrpromise = browser.pages();
