@@ -1,0 +1,57 @@
+<!-- 
+    CSS Units
+    1. Absolute Unit (Not Scalable means Not Responsive)
+    ==> px 
+
+    2. Relaive Unit (Scalable Means Responsive)
+    ==> rem(depended on font-size), em(relative to element it-self), vh(relative to viewport height), vw(relative to viewport Width), %(relative to it's parent document)
+
+ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Unit</title>
+    <style>
+        .px {
+            background-color: green;
+            font-size: 30px;
+        }
+
+        .rem {
+            font-size: 2rem;
+        }
+
+        .vh-vw {
+            font-size: 20vh;
+        }
+
+        .parent {
+            height: 10rem;
+            width: 30rem;
+            background-color: lightgreen;
+        }
+
+        .child {
+            background-color: lightcoral;
+            width: 20%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="px">Hello Px</div>
+    <div class="rem">REM</div>
+    <div class="vh-vw">vh - vw</div>
+    <div class="parent">
+        <div class="child"> Children</div>
+    </div>
+
+
+
+</body>
+
+</html>
