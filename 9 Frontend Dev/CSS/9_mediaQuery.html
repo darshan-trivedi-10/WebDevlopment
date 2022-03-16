@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Media Query</title>
+    <style>
+        .main {
+            width: 100vw;
+            height: 100vh;
+            background-color: red;
+        }
+
+        @media screen and (min-width:768px) and (max-width:1024px) {
+            .main {
+                background-color: blue;
+            }
+        }
+
+        @media screen and (min-width:425px) and (max-width:767px) {
+            .main {
+                background-color: black;
+            }
+        }
+
+        @media screen and (max-width:424px) {
+            .main {
+                background-color: orange;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+    </div>
+    <!-- 
+        Desktop - lightblue
+        Tablet - lightpink
+        Mobile - lightgreen
+        REST - lightcoral
+     -->
+</body>
+
+</html>
