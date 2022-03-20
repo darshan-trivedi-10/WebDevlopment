@@ -3,6 +3,7 @@
 - Javascript - 12 Days - `10/02/2022` - Completed
 - Javascript IS - 02/03/2022 
 - Frontend With HTML, CSS, JS & Browser API + IS - `07/05/2022`
+- Projects
 - React - `25/06/2022`
 - React IS - `03/07/2022`
 - SQL - `23/07/2022`
